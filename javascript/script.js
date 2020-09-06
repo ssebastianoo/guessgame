@@ -24,7 +24,7 @@ function submit() {
         if (parseInt(rangeA.value) === 0) {
             a = 0
         } else {
-            return document.getElementById("error").innerText = "not a valid range!"
+            return document.getElementById("error").innerHTML = "<strong>not a valid range!</strong>"
         }
     };
 
@@ -34,7 +34,7 @@ function submit() {
         if (parseInt(rangeB.value) === 0) {
             a = 0
         } else {
-            return document.getElementById("error").innerText = "not a valid range!"
+            return document.getElementById("error").innerHTML = "<strong>not a valid range!</strong>"
         }
     };
 

@@ -3,10 +3,17 @@
     <title>Guess Game</title>
     <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="description" content="I'll guess the number you're thinking!">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Seastiano Girotto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Guess Game">
 </head>
 <body>
     <div id = "container">
         <a id = "error"></a><br>
+        <a id = "rangeText">Select a range to guess the number</a><br><br>
         <input type = "text" id = "rangeA" placeholder="range A" value = "0" required>
         <input type = "text" id = "rangeB" placeholder="range B" value = "100" required><br><br>
         <input type = "submit" id = "submit" onclick = "submit()">
